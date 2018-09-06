@@ -22,6 +22,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <java.version>1.8</java.version>
+        <springBoot.version>2.0.4.RELEASE</springBoot.version>
     </properties>
 
     <dependencies>
@@ -30,21 +31,21 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
-            <version>2.0.4.RELEASE</version>
+            <version>${springBoot.version}</version>
         </dependency>
 
         <!-- 模板引擎 Thymeleaf 依赖 -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-thymeleaf</artifactId>
-            <version>2.0.4.RELEASE</version>
+            <version>${springBoot.version}</version>
         </dependency>
 
         <!-- Spring Data JPA 依赖 :: 数据持久层框架 -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-data-jpa</artifactId>
-            <version>2.0.4.RELEASE</version>
+            <version>${springBoot.version}</version>
         </dependency>
 
         <!-- h2 数据源依赖 -->
@@ -58,7 +59,7 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-cache</artifactId>
-            <version>2.0.4.RELEASE</version>
+            <version>${springBoot.version}</version>
         </dependency>
 
         <!-- Redis 数据源依赖 -->
@@ -66,15 +67,14 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-data-redis</artifactId>
-            <version>2.0.4.RELEASE</version>
+            <version>${springBoot.version}</version>
         </dependency>
-
 
         <!-- 测试依赖 -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
-            <version>2.0.4.RELEASE</version>
+            <version>${springBoot.version}</version>
             <scope>test</scope>
         </dependency>
 
